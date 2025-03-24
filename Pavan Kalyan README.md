@@ -14,8 +14,8 @@ Explanation: There is no mountain.
  
 
 # Program
-import java.util.Scanner;
 
+import java.util.Scanner;
 public class LongestMountain {
     public int longestMountain(int[] A) {
         if (A.length < 3) {
@@ -65,5 +65,7 @@ public class LongestMountain {
         scanner.close();
     }
 }
+
+
 
 
